@@ -6,31 +6,26 @@
 '     the code is regenerated. 
 ' </auto-generated>
 '------------------------------------------------------------------------------
-
-
-Imports Microsoft.VisualBasic
-Imports System
 Namespace ASPxGridLookUpSelection
 
+    Public Partial Class [Default]
 
-	Partial Public Class [Default]
+        ''' <summary>
+        ''' form1 control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
-		''' <summary>
-		''' form1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
-		''' <summary>
-		''' ASPxMenu1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected ASPxMenu1 As Global.DevExpress.Web.ASPxMenu.ASPxMenu
-	End Class
+        ''' <summary>
+        ''' ASPxMenu1 control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected ASPxMenu1 As Global.DevExpress.Web.ASPxMenu.ASPxMenu
+    End Class
 End Namespace

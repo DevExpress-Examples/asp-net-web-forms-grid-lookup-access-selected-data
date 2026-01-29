@@ -6,58 +6,53 @@
 '     the code is regenerated. 
 ' </auto-generated>
 '------------------------------------------------------------------------------
-
-
-Imports Microsoft.VisualBasic
-Imports System
 Namespace ASPxGridLookUpSelection
 
+    Public Partial Class ClientSide_MultiSelect
 
-	Partial Public Class ClientSide_MultiSelect
+        ''' <summary>
+        ''' form1 control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
-		''' <summary>
-		''' form1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+        ''' <summary>
+        ''' ASPxHyperLink1 control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected ASPxHyperLink1 As Global.DevExpress.Web.ASPxEditors.ASPxHyperLink
 
-		''' <summary>
-		''' ASPxHyperLink1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected ASPxHyperLink1 As Global.DevExpress.Web.ASPxEditors.ASPxHyperLink
+        ''' <summary>
+        ''' ASPxGridLookup1 control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected ASPxGridLookup1 As Global.DevExpress.Web.ASPxGridLookup.ASPxGridLookup
 
-		''' <summary>
-		''' ASPxGridLookup1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected ASPxGridLookup1 As Global.DevExpress.Web.ASPxGridLookup.ASPxGridLookup
+        ''' <summary>
+        ''' GetSelectionButton control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected GetSelectionButton As Global.DevExpress.Web.ASPxEditors.ASPxButton
 
-		''' <summary>
-		''' GetSelectionButton control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected GetSelectionButton As Global.DevExpress.Web.ASPxEditors.ASPxButton
-
-		''' <summary>
-		''' AccessDataSource1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected AccessDataSource1 As Global.System.Web.UI.WebControls.AccessDataSource
-	End Class
+        ''' <summary>
+        ''' AccessDataSource1 control.
+        ''' </summary>
+        ''' <remarks>
+        ''' Auto-generated field.
+        ''' To modify move field declaration from designer file to code-behind file.
+        ''' </remarks>
+        Protected AccessDataSource1 As Global.System.Web.UI.WebControls.AccessDataSource
+    End Class
 End Namespace
