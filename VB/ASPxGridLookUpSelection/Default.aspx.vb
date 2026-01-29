@@ -1,8 +1,9 @@
-﻿Imports System
+Imports System
 
 Namespace ASPxGridLookUpSelection
-    Partial Public Class [Default]
-        Inherits System.Web.UI.Page
+
+    Public Partial Class [Default]
+        Inherits Web.UI.Page
 
         Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
         End Sub
