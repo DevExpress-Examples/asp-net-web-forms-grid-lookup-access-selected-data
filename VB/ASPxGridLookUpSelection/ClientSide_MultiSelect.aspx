@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="ClientSide_MultiSelect.aspx.vb" Inherits="ASPxGridLookUpSelection.ClientSide_MultiSelect" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="ClientSide_MultiSelect.aspx.vb" Inherits="ASPxGridLookUpSelection.ClientSide_MultiSelect" %>
 
 <%@ Register Assembly="DevExpress.Web.v16.1, Version=16.1.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 <!DOCTYPE html>
@@ -26,26 +26,19 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <dx:ASPxHyperLink ID="ASPxHyperLink1" runat="server" Text="Go to the Default Page" NavigateUrl="~/Default.aspx">
-            </dx:ASPxHyperLink>
+            <dx:ASPxHyperLink ID="ASPxHyperLink1" runat="server" Text="Go to the Default Page" NavigateUrl="~/Default.aspx" />
 
             <dx:ASPxGridLookup ID="ASPxGridLookup1" runat="server" TextFormatString="{0}" ClientInstanceName="gridLookUp" AutoGenerateColumns="False"
                 SelectionMode="Multiple" DataSourceID="AccessDataSource1" Width="300px" KeyFieldName="ProductID">
                 <GridViewProperties>
-                    <SettingsBehavior AllowFocusedRow="True"></SettingsBehavior>
+                    <SettingsBehavior AllowFocusedRow="True" />
                 </GridViewProperties>
                 <Columns>
-                    <dx:GridViewCommandColumn VisibleIndex="0" ShowSelectCheckbox="true">
-                    </dx:GridViewCommandColumn>
-                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" VisibleIndex="1">
-                        <EditFormSettings Visible="False" />
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="2">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="CategoryID" VisibleIndex="3">
-                    </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="4">
-                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewCommandColumn ShowSelectCheckbox="true" />
+                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" />
+                    <dx:GridViewDataTextColumn FieldName="ProductName" />
+                    <dx:GridViewDataTextColumn FieldName="CategoryID" />
+                    <dx:GridViewDataTextColumn FieldName="UnitPrice" />
                 </Columns>
             </dx:ASPxGridLookup>
 
@@ -55,7 +48,7 @@
             </dx:ASPxButton>
 
             <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/nwind.mdb"
-                SelectCommand="SELECT [ProductID], [ProductName], [CategoryID], [UnitPrice] FROM [Products]"></asp:AccessDataSource>
+                SelectCommand="SELECT [ProductID], [ProductName], [CategoryID], [UnitPrice] FROM [Products]" />
         </div>
     </form>
 </body>
