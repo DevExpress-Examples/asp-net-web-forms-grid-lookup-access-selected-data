@@ -188,7 +188,7 @@ End Sub
 * [ServerSide_SingleSelect.aspx.cs](./CS/ASPxGridLookUpSelection/ServerSide_SingleSelect.aspx.cs) (VB: [ServerSide_SingleSelect.aspx.vb](./VB/ASPxGridLookUpSelection/ServerSide_SingleSelect.aspx.vb))
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-lookup-access-selected-data&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-lookup-access-selected-data&~~~was_helpful=no)
 
