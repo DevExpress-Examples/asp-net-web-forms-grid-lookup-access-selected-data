@@ -1,6 +1,6 @@
 <%@ Page Language="VB" AutoEventWireup="true" CodeBehind="ServerSide_SingleSelect.aspx.vb" Inherits="ASPxGridLookUpSelection.ServerSide_SingleSelect" %>
 
-<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <!DOCTYPE html>
 
